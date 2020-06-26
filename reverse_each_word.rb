@@ -7,5 +7,23 @@ def reverse_each_word(string)
   new_string.join(" ")
 end
 
+
+
+
+
+
+
+
+
+
+
+
 def reverse_each_word(array)
+  og_array = array.split(" ")
+  new_array = []
+  og_array.collect do |array|
+  new_array << array.split
+  end
+  new_array.join(" ")
+end  
   
