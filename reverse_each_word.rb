@@ -8,16 +8,6 @@ def reverse_each_word(string)
 end
 
 
-
-
-
-
-
-
-
-
-
-
 def reverse_each_word(array)
   og_array = array.split(" ")
   new_array = []
